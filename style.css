@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
+h2{
+    font-size: 25px;
+}
+ul li {
+    color: white;
+    font-size: 25px;
+}
+ul li a{
+    color: blue;
+    font-weight: bold;
+}
+h2{
+    color: white;
+}
+ul li ul li{
+    font-size: 20px;
+}
