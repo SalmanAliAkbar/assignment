@@ -2,25 +2,25 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1{
     color: white;
     font-size: 35px;
 }
-h2{
-    font-size: 25px;
-}
-ul li {
-    color: white;
-    font-size: 25px;
-}
-ul li a{
-    color: blue;
+ul li{
+    color: tomato;
     font-weight: bold;
 }
-h2{
+ul li p{
     color: white;
-}
-ul li ul li{
     font-size: 20px;
+}
+ul li h4{
+    color: white;
+    font-size: 20px;
+}
+ul li.font-size{
+    font-size: 25px;
 }
